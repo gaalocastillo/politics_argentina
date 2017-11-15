@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/home/rodrigo/Twitter Analysis Library/lib')
+sys.path.append('/home/Documentos/GitHub/politics_argentina/lib/scripts_base')
 import os
 import re
 from FileWorker import *
@@ -8,7 +8,7 @@ from TopicModeling import *
 from pymongo import *
 from datetime import datetime
 
-num_topics = 11
+num_topics = 12
 client = MongoClient('localhost', 27017)
 db = client['twitter_db']
 worker = FileWorker()
@@ -33,8 +33,6 @@ def apply_LDA(corpus,fileName,num_topics):
 
 	return top_words
 
-
-
 def get_corpus(tweets):
 	data = {}
 
@@ -45,9 +43,6 @@ def get_corpus(tweets):
 		data[created_at_date].append(tweet)
 
 	docs = []
-
-
-
 	fields = ['tokens']
 	args = {
 		'mentionsFlag':False,
@@ -73,11 +68,11 @@ def get_corpus(tweets):
 	return docs
 
 def build_political_dictionary():
-	collection_oficialismo = db['venezuela_oficialismo']
-	collection_oposicion = db['venezuela_oposicion']
+	collection_oficialismo = db['lideres_oficialismo']
+	collection_justicialista = db['lideres_justicialista']
 
-	startdate = datetime(2015, 10 , 6 , 0, 0, 0)
-	enddate = datetime(2015, 12 , 7 , 0, 0, 0)
+	startdate = datetime(2017, 1 , 1 , 0, 0, 0)
+	enddate = datetime(2017, 10 , 21 , 0, 0, 0)
 
 	tweets_oposicion = collection_oposicion.find({'created_at_date': {'$lt' : enddate , '$gte': startdate } })
 	tweets_oficialismo = collection_oficialismo.find({'created_at_date': {'$lt' : enddate , '$gte': startdate } })
