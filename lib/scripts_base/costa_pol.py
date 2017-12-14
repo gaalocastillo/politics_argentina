@@ -48,7 +48,7 @@ def getUsersWeeklyHourData(users_list):
 		user_info = { 'days': {0:{}, 1:{}, 2:{}, 3:{}, 4:{}, 5:{}, 6:{}}}
 		user_info['username'] = username
 		fillWeekHours(user_info)
-		user_data = fileworker.readJSON(username + '.json')
+		user_data = fileworker.readJSON('../../data/timelines/' + username + '.json')
 		tweets = user_data['tweets']
 		for tweet in tweets:
 			timestamp = mktime_tz(parsedate_tz(tweet['created_at']))
@@ -73,5 +73,5 @@ def writeUserWeeklyHourData(user_info, f):
 				f.write(username + ',' + str(retweet_count) + ',' + str(favorite_count) + ',')
 				f.write(str(month) + ',' + str(day) + ',' + str(hour) + '\n')
 
-getUsersWeeklyHourData(['diazfabr'])
+#getUsersWeeklyHourData(['diazfabr'])
 #get2017('archivo', 'diazfabr.json')

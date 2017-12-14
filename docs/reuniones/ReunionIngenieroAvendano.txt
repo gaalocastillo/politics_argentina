@@ -1,0 +1,8 @@
+Analisis temporal de retweets diarios y por mes para cada grupo politico.
+Buscar palabras mas frecuentes comunes para catalogarlas como stopwords.
+Analizar cantidad de retweets por franjas horarias (dia-tarde-noche)
+Analisis de franja horaria por mes para cada grupo.
+
+
+Crear red e menciones y retweets entre seguidores y lideres.
+Que escriben?

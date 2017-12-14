@@ -1,0 +1,12 @@
+Cambiar granularidad de un documento e iterar.
+Documentos por usuario y por tiempo.
+Por ejemplo: por usuario y por semana
+
+OBS: Realizar analisis exploratorio para cada documento: longitud, tamaño promedio del vocabulario.
+Agrupar cronologicamente de 5 en 5 tweets, de 10 en 10, etc.
+
+Validar configuraciones de documentos con identificacion manual de topicos y terminos por topicos.
+
+Realizo agregaciones a partir de todo el dataset o por usuario.
+
+Variaciones de topicos en el tiempo. Ver como los topicos de un periodo se relacionan con los topicos del siguiente.

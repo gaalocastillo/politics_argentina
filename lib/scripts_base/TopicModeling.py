@@ -1,6 +1,6 @@
 import math
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
-from sklearn.decomposition import NMF,ProjectedGradientNMF
+from sklearn.decomposition import NMF#, ProjectedGradientNMF
 from lda import LDA
 import math
 import matplotlib.pyplot as plt
@@ -59,13 +59,17 @@ class TopicModeling(object):
 		self.model = None
 		self.topic_words = None
 		self.top_words = None
+		self.metrics = None
+
+	def fit(self):
+		pass
 
 	def select_metric_criteria(self,metrics_criteria):
 		if metrics_criteria == 'term_score':
 			self.metrics = TopicTermScore()
 		else:
 			self.metrics = TopicSimpleScore()
-	
+
 	def get_all_words(self):
 		return self.all_words
 
@@ -120,7 +124,6 @@ class TopicModelingNMF(TopicModeling):
 class TopicModelingLDA(TopicModeling):
 	#wrapper de la libreriar LDA
 	#permite caracterizar los topicos en base a varios scores encontrados en la literatura
-
 	def __init__(self,corpus,metrics_criteria='simple'):
 		super(TopicModelingLDA, self).__init__()
 		self.corpus = corpus
@@ -155,6 +158,7 @@ class TopicModelingEvaluator(object):
 		plt.plot(self.num_topics,perplexity)
 		plt.xlabel("Num topics")
 		plt.ylabel("Perplexity")
+		plt.title('Perplexity vs Num topics')
 		plt.show()
 
 	def calculate_perplexity(self,num_topic):
@@ -166,3 +170,5 @@ class TopicModelingEvaluator(object):
 		x = 1.0*log_likelihood/n_features
 		result = math.exp(-1.0*x)
 		return result
+
+		

@@ -1,0 +1,36 @@
+Topico 0
+caseros,0.0331
+saludos,0.0342
+cambiandojuntos,0.0357
+plaza,0.0363
+barrio,0.0415
+vivo,0.0466
+cambio,0.0646
+gracias,0.0668
+vecinos,0.0826
+hurlingham,0.0836
+
+Topico 1
+reunion,0.0367
+seguimos,0.0381
+presidente,0.0382
+argentina,0.0397
+vecinos,0.0402
+firmamos,0.0430
+obras,0.0436
+seguridad,0.0460
+lanus,0.0467
+quilmes,0.0577
+
+Topico 2
+podes,0.0280
+compromiso,0.0299
+futuro,0.0319
+local,0.0362
+beso,0.0365
+centro,0.0368
+lopez,0.0369
+ciudad,0.0397
+abrazo,0.1547
+gracias,0.2505
+

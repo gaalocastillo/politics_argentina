@@ -1,0 +1,60 @@
+Topico 0
+santiago,0.0423
+macri,0.0439
+ahoraunidadciudadana,0.0459
+hs,0.0481
+barrio,0.0484
+inauguramos,0.0513
+chicos,0.0515
+agendacultural,0.0527
+ajuste,0.0541
+gobierno,0.0773
+
+Topico 1
+avellaneda,0.0605
+gracias,0.0681
+seguimos,0.0715
+jubilados,0.0768
+vecinos,0.0899
+pueblo,0.0902
+centro,0.0987
+obras,0.1005
+anos,0.1124
+lamatanza,0.1460
+
+Topico 2
+industria,0.0338
+chicos,0.0346
+despidos,0.0349
+ley,0.0361
+sector,0.0371
+ano,0.0432
+nacional,0.0477
+gobierno,0.0625
+trabajadores,0.0833
+macri,0.2015
+
+Topico 3
+patria,0.0355
+mantenimientourbano,0.0365
+politica,0.0374
+calles,0.0426
+derechos,0.0447
+seguridad,0.0450
+vida,0.0493
+inauguramos,0.0513
+maximo,0.0564
+argentina,0.1236
+
+Topico 4
+proyecto,0.0481
+lucha,0.0498
+plaza,0.0503
+pensionados,0.0538
+mayo,0.0555
+kirchner,0.0571
+justicia,0.0607
+wilde,0.0618
+club,0.0713
+hs,0.0976
+

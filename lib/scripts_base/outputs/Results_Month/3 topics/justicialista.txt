@@ -1,0 +1,36 @@
+Topico 0
+unidadciudadana,0.0248
+municipal,0.0256
+unidad,0.0305
+vecinos,0.0339
+avellaneda,0.0358
+vivo,0.0358
+barrio,0.0368
+ajuste,0.0450
+chicos,0.0473
+inauguramos,0.0605
+
+Topico 1
+hs,0.0247
+politicas,0.0254
+trabajadores,0.0255
+millones,0.0259
+macri,0.0334
+provincia,0.0353
+politica,0.0396
+ano,0.0451
+nacional,0.0495
+kirchner,0.0604
+
+Topico 2
+familia,0.0251
+justicia,0.0268
+lamatanza,0.0269
+wilde,0.0274
+subsidio,0.0320
+presidente,0.0336
+mil,0.0383
+entregamos,0.0399
+macri,0.0421
+centro,0.0775
+

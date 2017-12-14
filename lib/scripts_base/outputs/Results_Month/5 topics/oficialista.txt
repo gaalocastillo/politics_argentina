@@ -1,0 +1,60 @@
+Topico 0
+trabajando,0.0492
+club,0.0504
+ciudadela,0.0536
+beso,0.0567
+febrero,0.0583
+caseros,0.0685
+villa,0.0845
+vivo,0.0963
+cambio,0.1334
+gracias,0.2282
+
+Topico 1
+seguimos,0.0756
+plaza,0.0771
+hurlingham,0.0849
+casa,0.0905
+anos,0.1096
+obra,0.1180
+obras,0.1599
+barrio,0.1936
+equipo,0.1978
+vecinos,0.4886
+
+Topico 2
+compromiso,0.0415
+pilar,0.0430
+atencion,0.0445
+podes,0.0451
+lopez,0.0596
+juntos,0.0698
+beso,0.0973
+vos,0.1012
+abrazo,0.1898
+gracias,0.5688
+
+Topico 3
+recibi,0.0454
+justicia,0.0492
+nacion,0.0538
+ano,0.0622
+futuro,0.0638
+feliz,0.0656
+espacio,0.0716
+desarrollo,0.0724
+local,0.0724
+programa,0.0842
+
+Topico 4
+firmamos,0.0542
+lanus,0.0545
+seguimos,0.0547
+gestion,0.0566
+quilmes,0.0677
+chicos,0.0821
+educacion,0.0829
+convenio,0.0847
+trabajando,0.0907
+reunion,0.0910
+

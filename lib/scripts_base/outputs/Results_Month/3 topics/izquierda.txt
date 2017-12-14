@@ -1,0 +1,36 @@
+Topico 0
+anos,0.0367
+carrio,0.0399
+gobierno,0.0399
+votos,0.0399
+justicia,0.0415
+apoyo,0.0528
+pitrola,0.0578
+laboral,0.0763
+reforma,0.0848
+obrero,0.0952
+
+Topico 1
+hs,0.0496
+octubre,0.0496
+cristina,0.0566
+sindical,0.0609
+debate,0.0651
+maldonado,0.0795
+frente,0.0898
+santiago,0.1016
+izquierda,0.1348
+lucha,0.1860
+
+Topico 2
+bullrich,0.0628
+campana,0.0628
+ajuste,0.0657
+obrera,0.0776
+politica,0.0791
+po,0.0806
+voto,0.1003
+macri,0.1125
+trabajadores,0.1837
+fit,0.2178
+

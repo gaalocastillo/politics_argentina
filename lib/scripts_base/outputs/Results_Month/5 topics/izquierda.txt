@@ -1,0 +1,60 @@
+Topico 0
+vido,0.0419
+pj,0.0499
+diputados,0.0553
+mariano,0.0580
+carrio,0.0690
+pitrola,0.0791
+apoyo,0.0915
+macri,0.0985
+voto,0.1176
+laboral,0.1322
+
+Topico 1
+programa,0.0787
+provincia,0.0816
+hs,0.0944
+sindical,0.1159
+politica,0.1186
+obrera,0.1432
+maldonado,0.1514
+frente,0.1710
+lucha,0.1819
+izquierda,0.2567
+
+Topico 2
+octubre,0.0639
+anos,0.0664
+justicia,0.0751
+lucha,0.0782
+movilizacion,0.0839
+clase,0.0898
+cristina,0.1034
+reforma,0.1305
+debate,0.1413
+obrero,0.1726
+
+Topico 3
+enorme,0.0496
+popular,0.0496
+militancia,0.0581
+companeros,0.0725
+votos,0.0725
+po,0.0835
+via,0.1143
+campana,0.1327
+trabajadores,0.2815
+fit,0.4598
+
+Topico 4
+vida,0.0564
+aparicion,0.0594
+paso,0.0594
+macri,0.0670
+desaparicion,0.0874
+aparicionconvidadesantiagomaldonado,0.0946
+prensa,0.1195
+bullrich,0.1426
+ajuste,0.1492
+santiago,0.1572
+
